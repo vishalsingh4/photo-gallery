@@ -1,0 +1,56 @@
+.image-container {
+    padding: 2rem 12rem 0 12rem;
+}
+
+ul.image-list {
+    padding-left: 0 !important;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
+li.image-list-item {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    box-shadow: 0px 2px 6px rgb(24 39 75 / 12%), 0px 4px 8px rgb(24 39 75 / 8%);
+    border-radius: 12px;
+    margin: 24px 0;
+}
+
+li.image-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.image-title {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    padding-left: 24px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+}
+
+.loader-component {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+
+.page.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12rem;
+}
+
+.navigation-section {
+    display: flex;
+}
+
+.pagination {
+    max-width: 350px;
+    overflow-x: auto;
+}

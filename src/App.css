@@ -1,0 +1,25 @@
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.app-container {
+    background-image: linear-gradient(to right, black, white );
+    color: white;
+    height: 100%;
+}
+
+.page-title {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 30px;
+    text-transform: capitalize;
+}
+
+.sub-title {
+    font-weight: 500;
+    font-size: 20px;
+}
